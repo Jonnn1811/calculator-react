@@ -1,0 +1,50 @@
+.calculator {
+    background-color: black;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: arial;
+}
+
+.blackButton button{
+    cursor:pointer;
+    background-color: #252525;
+    margin-left:3px;
+    border: none;
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+
+.blackButton .orangeButton{
+    cursor:pointer;
+    background-color: orange;
+    margin-left:3px;
+    border: none;
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+.blackButton .grayButton {
+    cursor:pointer;
+    background-color: rgb(190, 190, 190);
+    margin-left:3px;
+    border: none;
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+}
